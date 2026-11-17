@@ -4,22 +4,24 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     display: block;
     box-sizing: border-box;
+    minimum-width: 300px;
 }
 input{
 margin:5px;
 width: 100%;
 padding: 5px;
 box-sizing: border-box;
-border: 1px solid black;
+border: 1px solid green;
 }
 input:hover{
     cursor:text ;
 }
 button{
     margin: 5px;
-    padding: 5px 8px;
+    padding: 8px 10px;
     color: white;
     border: none;
+    font-weight: bold;
     background-color: green;
 }
 button:hover{
@@ -27,5 +29,12 @@ button:hover{
 }
 
 #ul-el {
-    color:black;
+    margin-top: 20px;
+    list-style: none;
+}
+li{
+    margin-top: 5px;
+}
+li a{
+color: green;
 }
